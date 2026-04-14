@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bryan Alan | Resume</title>
+    <meta
+      name="description"
+      content="Resume page for Bryan Alan, an aspiring Network Security Engineer focused on routing, switching, and secure, reliable network design."
+    />
+    <script>
+      (() => {
+        document.documentElement.classList.add("page-loading");
+
+        try {
+          const storedTheme = localStorage.getItem("theme-preference");
+          const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+          if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
+            document.documentElement.classList.add("dark-mode");
+          }
+        } catch {
+          if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.documentElement.classList.add("dark-mode");
+          }
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="resume-body">
+    <div class="page-loader" data-page-loader aria-hidden="true">
+      <div class="page-loader__container">
+        <span class="page-loader__spinner"></span>
+        <span class="page-loader__text">Loading</span>
+      </div>
+    </div>
+    <div class="page-shell">
+      <header class="site-header">
+        <a
+          class="email-link email-link--desktop"
+          href="mailto:bryanofficial2004@gmail.com"
+          aria-label="Email Bryan Alan"
+        >
+          <span class="email-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img" focusable="false">
+              <path
+                d="M4.5 6.75h15A1.75 1.75 0 0 1 21.25 8.5v7A1.75 1.75 0 0 1 19.5 17.25h-15A1.75 1.75 0 0 1 2.75 15.5v-7A1.75 1.75 0 0 1 4.5 6.75Z"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m4.25 8.25 6.74 5.03a1.75 1.75 0 0 0 2.02 0l6.74-5.03"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          <span>bryanofficial2004@gmail.com</span>
+        </a>
+
+        <div class="site-header__actions">
+          <nav class="site-nav site-nav--desktop" aria-label="Primary">
+            <a href="index.html#about">About Me</a>
+            <a href="resume.html" aria-current="page">Resume</a>
+          </nav>
+          <button
+            class="theme-toggle theme-toggle--desktop"
+            type="button"
+            data-theme-toggle
+            aria-pressed="false"
+            aria-label="Switch color theme"
+          >
+            <span class="theme-toggle__switch" aria-hidden="true">
+              <span class="theme-toggle__thumb"></span>
+            </span>
+            <span class="theme-toggle__state" data-theme-label>Off</span>
+          </button>
+        </div>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-sidebar"
+          aria-label="Open menu"
+        >
+          <span class="menu-toggle__line" aria-hidden="true"></span>
+          <span class="menu-toggle__line" aria-hidden="true"></span>
+          <span class="menu-toggle__line" aria-hidden="true"></span>
+        </button>
+      </header>
+
+      <div class="mobile-nav-backdrop" hidden></div>
+      <aside class="mobile-sidebar" id="mobile-sidebar" aria-label="Mobile navigation">
+        <div class="mobile-sidebar__top">
+          <button class="mobile-sidebar__close" type="button" aria-label="Close menu">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <nav class="mobile-sidebar__nav" aria-label="Mobile primary">
+          <a href="index.html#about">About Me</a>
+          <a href="resume.html" aria-current="page">Resume</a>
+        </nav>
+
+        <div class="mobile-sidebar__footer">
+          <button
+            class="theme-toggle theme-toggle--mobile"
+            type="button"
+            data-theme-toggle
+            aria-pressed="false"
+            aria-label="Switch color theme"
+          >
+            <span class="theme-toggle__switch" aria-hidden="true">
+              <span class="theme-toggle__thumb"></span>
+            </span>
+            <span class="theme-toggle__state" data-theme-label>Off</span>
+          </button>
+          <a class="email-link email-link--sidebar" href="mailto:bryanofficial2004@gmail.com">
+            <span class="email-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path
+                  d="M4.5 6.75h15A1.75 1.75 0 0 1 21.25 8.5v7A1.75 1.75 0 0 1 19.5 17.25h-15A1.75 1.75 0 0 1 2.75 15.5v-7A1.75 1.75 0 0 1 4.5 6.75Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="m4.25 8.25 6.74 5.03a1.75 1.75 0 0 0 2.02 0l6.74-5.03"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </span>
+            <span>bryanofficial2004@gmail.com</span>
+          </a>
+        </div>
+      </aside>
+
+      <main class="resume-section resume-page" id="resume" aria-label="Resume">
+        <div class="resume-grid">
+          <section class="resume-row" aria-labelledby="experience-heading">
+            <p class="resume-label" id="experience-heading">Experience</p>
+            <div class="resume-content">
+              <article class="resume-entry">
+                <div class="resume-title-line">
+                  <div>
+                    <h2 class="resume-item-title">CCNA Training</h2>
+                    <p class="resume-item-role">Network Engineering</p>
+                  </div>
+                  <p class="resume-meta">Chennai, Tamil Nadu &bull; Jan 2026 &ndash; Feb 2026</p>
+                </div>
+                <div class="resume-copy">
+                  <p>Configured VLANs and implemented inter-VLAN routing using ROAS and SVI.</p>
+                  <p>Worked with OSPF and RIP for scalable network communication.</p>
+                  <p>Practiced real-time scenarios using Packet Tracer and lab equipment.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="resume-row" aria-labelledby="education-heading">
+            <p class="resume-label" id="education-heading">Education</p>
+            <div class="resume-content">
+              <article class="resume-entry">
+                <div class="resume-title-line">
+                  <h2 class="resume-item-title">Bachelor of Computer Science and Engineering</h2>
+                  <p class="resume-meta">DMI College of Engineering &bull; 2025</p>
+                </div>
+                <p class="resume-inline">Chennai, Tamil Nadu</p>
+                <p class="resume-inline">HSC &mdash; 80%</p>
+                <p class="resume-inline">SSLC &mdash; 78%</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="resume-row" aria-labelledby="skills-heading">
+            <p class="resume-label" id="skills-heading">Skills</p>
+            <div class="resume-content">
+              <p class="resume-skills">
+                Routing &amp; Switching &bull; VLAN &bull; OSPF &bull; RIP &bull; TCP/IP &bull; DNS &bull; DHCP &bull; ACL &bull; Wireshark &bull; Packet Tracer &bull; Cisco IOS
+              </p>
+            </div>
+          </section>
+
+          <section class="resume-row" aria-labelledby="projects-heading">
+            <p class="resume-label" id="projects-heading">Projects</p>
+            <div class="resume-content">
+              <article class="resume-entry">
+                <div class="resume-title-line">
+                  <h2 class="resume-item-title">Static Routing with DHCP &amp; DNS</h2>
+                  <p class="resume-meta">Jan 2026</p>
+                </div>
+                <div class="resume-copy">
+                  <p>Configured multi-router networks with static routing.</p>
+                  <p>Implemented DHCP and DNS for dynamic IP and name resolution.</p>
+                  <p>Validated full network connectivity.</p>
+                </div>
+              </article>
+
+              <article class="resume-entry">
+                <div class="resume-title-line">
+                  <h2 class="resume-item-title">VLAN Segmentation with Inter-VLAN Routing</h2>
+                  <p class="resume-meta">Feb 2026</p>
+                </div>
+                <div class="resume-copy">
+                  <p>Created segmented VLANs for cleaner traffic management across departments.</p>
+                  <p>Enabled inter-VLAN communication through ROAS and SVI configurations.</p>
+                  <p>Tested end-to-end reachability inside Packet Tracer labs.</p>
+                </div>
+              </article>
+
+              <article class="resume-entry">
+                <div class="resume-title-line">
+                  <h2 class="resume-item-title">Dynamic Routing with OSPF &amp; RIP</h2>
+                  <p class="resume-meta">Feb 2026</p>
+                </div>
+                <div class="resume-copy">
+                  <p>Built routing topologies using OSPF and RIP to support scalable communication.</p>
+                  <p>Compared route propagation and troubleshooting behavior across routers.</p>
+                  <p>Verified stable connectivity between simulated branch networks.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="resume-row" aria-labelledby="certifications-heading">
+            <p class="resume-label" id="certifications-heading">Certifications</p>
+            <div class="resume-content resume-certifications">
+              <p>Cisco &mdash; Networking Essentials</p>
+              <p>IBM &mdash; Cybersecurity Fundamentals</p>
+              <p>Network Rhinos &mdash; CCNA</p>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume-actions">
+          <a
+            class="cta-button resume-download"
+            href="Bryan-Alan-Resume.txt"
+            download="Bryan-Alan-Resume.txt"
+            aria-label="Download Bryan Alan resume"
+          >
+            <span class="cta-button__halo" aria-hidden="true"></span>
+            <span class="cta-button__shine" aria-hidden="true"></span>
+            <span class="cta-button__particles" aria-hidden="true">
+              <span class="cta-button__particle particle-1"></span>
+              <span class="cta-button__particle particle-2"></span>
+              <span class="cta-button__particle particle-3"></span>
+              <span class="cta-button__particle particle-4"></span>
+            </span>
+            <span class="cta-button__text">Download Resume</span>
+          </a>
+        </div>
+      </main>
+    </div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

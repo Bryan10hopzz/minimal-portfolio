@@ -1,0 +1,46 @@
+BRYAN ALAN
+Aspiring Network Security Engineer
+
+Email: bryanofficial2004@gmail.com
+Location: Chennai, Tamil Nadu
+
+SUMMARY
+Aspiring Network Security Engineer focused on routing, switching, and secure network design with hands-on CCNA and lab-based training.
+
+EXPERIENCE
+CCNA Training - Network Engineering
+Chennai, Tamil Nadu | Jan 2026 - Feb 2026
+Configured VLANs and implemented inter-VLAN routing using ROAS and SVI.
+Worked with OSPF and RIP for scalable network communication.
+Practiced real-time scenarios using Packet Tracer and lab equipment.
+
+EDUCATION
+Bachelor of Computer Science and Engineering
+DMI College of Engineering | 2025
+Chennai, Tamil Nadu
+HSC - 80%
+SSLC - 78%
+
+SKILLS
+Routing & Switching, VLAN, OSPF, RIP, TCP/IP, DNS, DHCP, ACL, Wireshark, Packet Tracer, Cisco IOS
+
+PROJECTS
+Static Routing with DHCP & DNS | Jan 2026
+Configured multi-router networks with static routing.
+Implemented DHCP and DNS for dynamic IP and name resolution.
+Validated full network connectivity.
+
+VLAN Segmentation with Inter-VLAN Routing | Feb 2026
+Created segmented VLANs for cleaner traffic management across departments.
+Enabled inter-VLAN communication through ROAS and SVI configurations.
+Tested end-to-end reachability inside Packet Tracer labs.
+
+Dynamic Routing with OSPF & RIP | Feb 2026
+Built routing topologies using OSPF and RIP to support scalable communication.
+Compared route propagation and troubleshooting behavior across routers.
+Verified stable connectivity between simulated branch networks.
+
+CERTIFICATIONS
+Cisco - Networking Essentials
+IBM - Cybersecurity Fundamentals
+Network Rhinos - CCNA
