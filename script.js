@@ -464,8 +464,8 @@ if (supportsCustomCursor) {
     const animate = (time) => {
       const deltaFrames = Math.min((time - lastCursorFrame) / (1000 / 60), 2.4);
       const normalizedDelta = Math.max(deltaFrames || 1, 1);
-      const dotEase = getFrameEase(0.62, normalizedDelta);
-      const ringEase = getFrameEase(0.34, normalizedDelta);
+      const dotEase = getFrameEase(0.92, normalizedDelta);
+      const ringEase = getFrameEase(0.62, normalizedDelta);
 
       lastCursorFrame = time;
 
@@ -483,6 +483,9 @@ if (supportsCustomCursor) {
     window.addEventListener("pointermove", (event) => {
       mouseX = event.clientX;
       mouseY = event.clientY;
+      dotX = mouseX;
+      dotY = mouseY;
+      setPosition(dot, dotX, dotY);
       body.classList.add("cursor-visible");
 
       const target = event.target.closest(interactiveSelector);

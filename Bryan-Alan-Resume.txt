@@ -1,46 +1,54 @@
 BRYAN ALAN
-Aspiring Network Security Engineer
+Network Security Engineer
 
-Email: bryanofficial2004@gmail.com
-Location: Chennai, Tamil Nadu
+EDUCATION
+DMI College of Engineering | April 2025
+Bachelor of Computer Science and Engineering
+Overall Percentage - 68%
+Chennai, Tamil Nadu
 
-SUMMARY
-Aspiring Network Security Engineer focused on routing, switching, and secure network design with hands-on CCNA and lab-based training.
+Seventh Day Adventist Matriculation HSS | May 2021
+HSC - 80%
+Nagercoil, Tamil Nadu
+
+Seventh Day Adventist Matriculation HSS | March 2019
+SSLC - 78%
+Marthandam, Tamil Nadu
+
+TECHNICAL SKILLS
+Firewall and Security: Firewall administration (Palo Alto Networks), security policies and rule configuration, NAT, IPSec VPN, remote access VPN, HTTPS inspection, URL filtering, application control, threat prevention, antivirus and anti-spyware, file blocking, high availability, virtual wire deployment, Syslog configuration, log monitoring, link monitoring, path monitoring, and Active Directory integration.
+L2 (Switching): VLAN configuration, 802.1Q trunking, DTP, VTP, STP, RSTP, port security, EtherChannel (LACP and PAgP), ARP, MAC address table management, and inter-VLAN concepts.
+L3 (Routing): Static routing, default routing, dynamic routing (OSPF and RIP), inter-VLAN routing with ROAS and SVI, routing table analysis, basic route redistribution, and policy-based routing (PBR).
+Tools: Wireshark for packet analysis, Cisco Packet Tracer, and Palo Alto firewall lab environments.
+
+PROJECTS
+VLAN Configuration and Layer 3 Switching using ROAS and SVI | February 2026
+Designed and implemented VLANs with Router-on-a-Stick (ROAS) for inter-VLAN routing.
+Configured switched virtual interfaces (SVIs) on multilayer switches for efficient Layer 3 switching.
+Applied VTP to manage VLANs across multiple switches.
+Simulated an enterprise switching network that supports VLAN management and Layer 3 routing.
+
+Firewall and VPN Implementation Lab | March 2026
+Configured firewall security policies and NAT rules in a lab environment.
+Implemented site-to-site IPSec VPN with Phase 1 and Phase 2 configuration.
+Configured SSL VPN for secure remote access.
+Monitored logs using Syslog and analyzed traffic behavior.
 
 EXPERIENCE
 CCNA Training - Network Engineering
 Chennai, Tamil Nadu | Jan 2026 - Feb 2026
-Configured VLANs and implemented inter-VLAN routing using ROAS and SVI.
-Worked with OSPF and RIP for scalable network communication.
-Practiced real-time scenarios using Packet Tracer and lab equipment.
+Configured VLANs and implemented inter-VLAN routing using Router-on-a-Stick (ROAS) and SVI to enable communication between multiple departments.
+Implemented dynamic routing protocols including OSPF and RIP to establish scalable and reliable inter-network communication.
+Worked on real-time scenarios using Cisco Packet Tracer and physical lab equipment to reinforce networking concepts.
 
-EDUCATION
-Bachelor of Computer Science and Engineering
-DMI College of Engineering | 2025
-Chennai, Tamil Nadu
-HSC - 80%
-SSLC - 78%
-
-SKILLS
-Routing & Switching, VLAN, OSPF, RIP, TCP/IP, DNS, DHCP, ACL, Wireshark, Packet Tracer, Cisco IOS
-
-PROJECTS
-Static Routing with DHCP & DNS | Jan 2026
-Configured multi-router networks with static routing.
-Implemented DHCP and DNS for dynamic IP and name resolution.
-Validated full network connectivity.
-
-VLAN Segmentation with Inter-VLAN Routing | Feb 2026
-Created segmented VLANs for cleaner traffic management across departments.
-Enabled inter-VLAN communication through ROAS and SVI configurations.
-Tested end-to-end reachability inside Packet Tracer labs.
-
-Dynamic Routing with OSPF & RIP | Feb 2026
-Built routing topologies using OSPF and RIP to support scalable communication.
-Compared route propagation and troubleshooting behavior across routers.
-Verified stable connectivity between simulated branch networks.
+Firewall Training - Security Engineering
+Chennai, Tamil Nadu | Mar 2026 - Apr 2026
+Configured basic firewall security policies and NAT rules in a lab environment.
+Implemented VPN configurations, including IPSec and SSL VPN, for secure connectivity.
+Worked on real-time scenarios using Cisco Packet Tracer and firewall lab setups.
 
 CERTIFICATIONS
 Cisco - Networking Essentials
 IBM - Cybersecurity Fundamentals
-Network Rhinos - CCNA
+Network Rhinos - Cisco Certified Network Associate
+Palo Alto Firewall
