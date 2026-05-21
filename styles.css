@@ -240,7 +240,8 @@ body.custom-cursor-enabled.cursor-pressed .cursor-dot {
 }
 
 .site-header,
-.about-section {
+.about-section,
+.certifications-section {
   position: relative;
   z-index: 1;
 }
@@ -1005,6 +1006,54 @@ body.mobile-nav-open .mobile-sidebar {
   line-height: 1.65;
   color: var(--muted);
   font-weight: 500;
+}
+
+.certifications-section {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 0 68px;
+  scroll-margin-top: 36px;
+}
+
+.section-heading {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.section-heading--certificate {
+  margin-top: 34px;
+}
+
+.section-heading h1,
+.section-heading h2 {
+  margin: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.3rem);
+  line-height: 1;
+  font-weight: 700;
+}
+
+.certificate-card {
+  margin: 0;
+  padding: clamp(10px, 2vw, 16px);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow:
+    0 24px 58px rgba(17, 17, 17, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.certificate-image {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  background: #ffffff;
 }
 
 .resume-body {
@@ -1840,6 +1889,14 @@ html.dark-mode .eyebrow {
   color: rgba(242, 245, 251, 0.72);
 }
 
+html.dark-mode .certificate-card {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow:
+    0 24px 58px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
 html.dark-mode .resume-body {
   background: linear-gradient(180deg, #0b1119 0%, #03060a 100%);
 }
@@ -2025,6 +2082,10 @@ html.dark-mode .email-link--sidebar .email-icon {
     padding-top: 34px;
   }
 
+  .certifications-section {
+    padding-top: 32px;
+  }
+
   .about-section h1 {
     font-size: clamp(2.6rem, 11vw, 4.2rem);
   }
@@ -2141,6 +2202,18 @@ html.dark-mode .email-link--sidebar .email-icon {
     max-width: 33ch;
     font-size: 0.92rem;
     line-height: 1.6;
+  }
+
+  .certifications-section {
+    padding-bottom: 48px;
+  }
+
+  .section-heading {
+    margin-bottom: 18px;
+  }
+
+  .section-heading--certificate {
+    margin-top: 26px;
   }
 
   .cta-button {

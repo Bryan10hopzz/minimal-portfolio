@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bryan Alan | About Me</title>
+    <title>Bryan Alan | Certifications</title>
     <meta
       name="description"
-      content="About Bryan Alan, an aspiring Network Security Engineer focused on routing, switching, and secure, reliable network design."
+      content="Certifications for Bryan Alan, including networking and security training credentials."
     />
     <script>
       (() => {
@@ -78,7 +78,7 @@
           <nav class="site-nav site-nav--desktop" aria-label="Primary">
             <a href="index.html#about">About Me</a>
             <a href="resume.html">Resume</a>
-            <a href="certifications.html">Certifications</a>
+            <a href="certifications.html" aria-current="page">Certifications</a>
           </nav>
           <button
             class="theme-toggle theme-toggle--desktop"
@@ -118,7 +118,7 @@
         <nav class="mobile-sidebar__nav" aria-label="Mobile primary">
           <a href="index.html#about">About Me</a>
           <a href="resume.html">Resume</a>
-          <a href="certifications.html">Certifications</a>
+          <a href="certifications.html" aria-current="page">Certifications</a>
         </nav>
 
         <div class="mobile-sidebar__footer">
@@ -160,50 +160,43 @@
         </div>
       </aside>
 
-      <main class="about-section" id="about" aria-label="About Me">
-        <div class="avatar-wrap">
-          <img class="avatar" src="assests/17179.jpg" alt="Bryan Alan avatar" />
+      <main class="certifications-section" id="certifications" aria-labelledby="certifications-title">
+        <div class="section-heading">
+          <p class="detail-label">Certifications</p>
+          <h1 id="certifications-title">CCNA Certification</h1>
         </div>
 
-        <p class="eyebrow">Hi, I'm Bryan Alan <span aria-hidden="true">&#x270C;&#xFE0F;</span></p>
+        <figure class="certificate-card">
+          <img
+            class="certificate-image"
+            src="assests/Certificate%20Bryan%20Alan%20.png"
+            alt="CCNA certificate"
+          />
+        </figure>
 
-        <section class="about-copy" aria-label="About me introduction">
-          <h1>
-            <span class="title-line">Aspiring</span>
-            <span class="title-line nowrap">
-              <span
-                class="title-underline title-typewriter"
-                data-words="Network Security|Network"
-                aria-label="Network Security and Network"
-              >
-                <span class="title-typewriter__ghost" aria-hidden="true">Network Security</span>
-                <span class="title-typewriter__text" aria-hidden="true">Network Security</span>
-              </span>
-              <span class="title-static">Engineer</span>
-            </span>
-          </h1>
-          <p class="supporting-text">
-            CCNA &amp; Firewall-trained Network Engineer focused on routing, switching, and network security. 
-Experienced in building reliable and scalable networks with strong troubleshooting skills.
-          </p>
-        </section>
- 
-        <a
-          class="cta-button"
-          href="https://www.linkedin.com/in/bryan-alan/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span class="cta-button__halo" aria-hidden="true"></span>
-          <span class="cta-button__shine" aria-hidden="true"></span>
-          <span class="cta-button__particles" aria-hidden="true">
-            <span class="cta-button__particle particle-1"></span>
-            <span class="cta-button__particle particle-2"></span>
-            <span class="cta-button__particle particle-3"></span>
-            <span class="cta-button__particle particle-4"></span>
-          </span>
-          <span class="cta-button__text">Connect With Me</span>
-        </a>
+        <div class="section-heading section-heading--certificate">
+          <h2>Networking Essentials</h2>
+        </div>
+
+        <figure class="certificate-card">
+          <img
+            class="certificate-image"
+            src="assests/Networking%20Essentials_page-0001.jpg"
+            alt="Networking Essentials certificate"
+          />
+        </figure>
+
+        <div class="section-heading section-heading--certificate">
+          <h2>Cybersecurity Fundamentals</h2>
+        </div>
+
+        <figure class="certificate-card">
+          <img
+            class="certificate-image"
+            src="assests/Cybersecurity%20Fundamentals_page-0001.jpg"
+            alt="Cybersecurity Fundamentals certificate"
+          />
+        </figure>
       </main>
     </div>
     <div class="cursor-dot" aria-hidden="true"></div>
